@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Teghut Market</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="poweredByURL">http://market.teghut.am</string>
+    <string name="imageViewsDesc">Description</string>
+    <string name="armLanguage">Հայերեն</string>
+    <string name="enLanguage">English</string>
+    <string name="rusLanguage">русский</string>
+    <string name="makeLangDefault">OK</string>
+
+</resources>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_content_color" >
+
+    <RelativeLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dialog_content_color"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignTop="@id/parent_layout"
+            android:background="@color/dialog_title_color"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp" >
+
+            <TextView
+                android:id="@+id/orderDialogTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageCircle"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@string/imageViewsDesc"
+                android:onClick="closeOrder"
+                android:src="@drawable/arrow_left" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:background="@color/dialog_content_color"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:id="@+id/buyerName"
+                style="@style/order_dialog_textview_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" />
+
+            <EditText
+                android:id="@+id/buyerNameEdit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/buyerName"
+                android:layout_marginTop="3dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/contactNumber"
+                style="@style/order_dialog_textview_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/buyerNameEdit"
+                android:layout_marginTop="3dp" />
+
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contactNumber"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:inputType="phone" />
+
+            <TextView
+                android:id="@+id/messageTitle"
+                style="@style/order_dialog_textview_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/contact"
+                android:layout_marginTop="3dp" />
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/messageTitle"
+                android:layout_centerHorizontal="true"
+                android:inputType="textMultiLine"
+                android:maxLength="160"
+                android:paddingTop="1dp"/>
+
+            <TextView
+                android:id="@+id/charsRemaining"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/message"
+                android:paddingBottom="15dp"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/preferedDelivery"
+                style="@style/order_dialog_textview_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/charsRemaining" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/footer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/content"
+            android:layout_marginTop="5dp"
+            android:background="@color/dialog_content_color" >
+
+            <Button
+                android:id="@+id/submitBtn"
+                style="@style/order_dialog_buttons_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/preferedDelivery"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/buttonsAnchor"
+                android:background="@drawable/dialog_submit_btn"
+                android:drawableLeft="@drawable/treeangle_right"
+                android:onClick="submitOrder" />
+
+            <TextView
+                android:id="@+id/buttonsAnchor"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/preferedDelivery"
+                android:layout_centerInParent="true" />
+
+            <Button
+                android:id="@+id/closeBtn"
+                style="@style/order_dialog_buttons_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/preferedDelivery"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/buttonsAnchor"
+                android:background="@drawable/dialog_close_btn"
+                android:onClick="closeOrder" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

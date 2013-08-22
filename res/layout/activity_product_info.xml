@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/pInfoScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/splash_grey"
+        android:layout_above="@+id/btnLayout" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/splash_grey" >
+
+            <ImageView
+                android:id="@+id/selectedProductImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/imageViewsDesc"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/selectedProductName"
+                style="@style/product_info_textviews_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectedProductImg"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/selectedProductDesc"
+                style="@style/product_info_textviews_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectedProductName"
+                android:layout_marginTop="10dp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/selectedProductPrice"
+                style="@style/product_info_textviews_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectedProductDesc" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/selectedProductStock"
+                style="@style/product_info_textviews_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectedProductPrice" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/selectedProductDelivery"
+                style="@style/product_info_textviews_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectedProductStock" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/selectedProductLocation"
+                style="@style/product_info_textviews_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectedProductDelivery" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/selectedProductProducer"
+                style="@style/product_info_textviews_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectedProductLocation" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/selectedProductProducerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectedProductLocation"
+                android:layout_toRightOf="@+id/selectedProductProducer"
+                android:paddingTop="5dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/link_line"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_alignLeft="@+id/selectedProductProducerName"
+                android:layout_alignRight="@+id/selectedProductProducerName"
+                android:layout_below="@+id/selectedProductProducerName"
+                android:background="@color/white"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/btnLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="5dp"
+        android:paddingTop="15dp" >
+
+        <TextView
+            android:id="@+id/pInfoBtnAnchor"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:id="@+id/pInfoOrderBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/pInfoBtnAnchor"
+            android:background="@drawable/dialog_submit_btn"
+            android:drawableLeft="@drawable/treeangle_right"
+            android:minHeight="40dp"
+            android:onClick="preOrderDlg"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/pInfoBackBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/pInfoBtnAnchor"
+            android:background="@drawable/dialog_close_btn"
+            android:minHeight="40dp"
+            android:onClick="backToProducts"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/langMainLayoutScroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/langMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dialog_content_color"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/langRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/armLangRadioBtn"
+                style="@style/language_dialog_radiobtn_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:drawableLeft="@drawable/flag_arm"
+                android:text="@string/armLanguage" />
+
+            <RadioButton
+                android:id="@+id/enLangRadioBtn"
+                style="@style/language_dialog_radiobtn_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:drawableLeft="@drawable/flag_uk"
+                android:text="@string/enLanguage" />
+
+            <RadioButton
+                android:id="@+id/rusLangRadioBtn"
+                style="@style/language_dialog_radiobtn_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:drawableLeft="@drawable/flag_rus"
+                android:text="@string/rusLanguage" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/langDialogOkBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="25dp"
+            android:enabled="false"
+            android:text="@string/makeLangDefault" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners 
+                android:bottomLeftRadius="0dp" 
+                android:bottomRightRadius="0dp" 
+                android:topLeftRadius="12dp" 
+                android:topRightRadius="12dp" />
+
+            <solid android:color="@color/splash_grey"/>
+            
+            <gradient 
+                android:centerColor="@color/splash_grey" 
+                android:endColor="@color/splash_grey" 
+                android:startColor="@color/splash_grey" />
+            
+            <stroke android:width="2.5dp" android:color="@color/product_item_border"/>
+        </shape>
+    </item>
+        
+    <item android:state_pressed="true">               
+        <shape android:shape="rectangle">
+            <corners 
+                android:bottomLeftRadius="0dp" 
+                android:bottomRightRadius="0dp" 
+                android:topLeftRadius="12dp" 
+                android:topRightRadius="12dp" />
+
+            <solid android:color="@color/splash_grey"/>
+            
+            <gradient 
+                android:centerColor="@color/splash_grey" 
+                android:endColor="@color/splash_grey" 
+                android:startColor="@color/splash_grey" />
+            
+            <stroke android:width="2.5dp" android:color="@color/product_item_border"/>
+        </shape>        
+    </item>
+    
+    <item>
+        <shape android:shape="rectangle">
+            <corners 
+                android:bottomLeftRadius="0dp" 
+                android:bottomRightRadius="0dp" 
+                android:topLeftRadius="12dp" 
+                android:topRightRadius="12dp" />
+            
+            <solid android:color="@color/splash_grey"/>
+
+            <gradient 
+                android:centerColor="@color/splash_grey" 
+                android:endColor="@color/splash_grey" 
+                android:startColor="@color/splash_grey" />
+            
+            <stroke android:width="2.5dp" android:color="@color/product_item_border"/>
+        </shape>        
+    </item>
+
+</selector>

@@ -1,0 +1,27 @@
+<resources><color name="red">#ff0000</color>
+<color name="light_grey">#B8BDC4</color>
+<color name="lightest_grey">#EDEDED</color>
+<color name="white">#FFFFFF</color>
+<color name="black">#000000</color>
+<color name="dark_grey">#303030</color>
+<color name="grey">#606060</color>
+<color name="orange">#EF7500</color>
+<color name="startOrange">#FFD763</color>
+<color name="endOrange">#E37C1A</color>
+<color name="light_blue">#8C9CA9</color>
+<color name="darker_grey">#37414B</color>
+<color name="bg_grey">#DCDCDC</color>
+<color name="royalBlue">#4169E1</color>
+<color name="dodgerBlue">#0c06fb</color>
+<color name="light_black">#a8aaa3</color>
+<color name="splash_grey">#675a52</color>
+<color name="list_bg">#c6b6ac</color>
+<color name="price_layout_bg">#55463f</color>
+<color name="order_btn_color">#d8751a</color>
+<color name="footer_ligth_grey">#67AC0E</color>
+<color name="dialog_title_color">#62a139</color>
+<color name="dialog_content_color">#61b628</color>
+<color name="product_item_border">#392b24</color>
+<color name="product_count_color">#ff8d26</color>
+<color name="purple">#9c06fb</color>
+</resources>

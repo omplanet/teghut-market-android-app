@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="languageEntries">
+        <item name="am">Հայերեն</item>
+        <item name="en">English</item>
+        <item name="ru">Русский</item>
+    </string-array>
+    <string-array name="languageValues">
+        <item name="am">Հայերեն</item>
+        <item name="en">English</item>
+        <item name="ru">Русский</item>
+    </string-array>
+    <string-array name="am">
+        <item>Կարգավորումներ</item>
+        <item>Դուրս գալ</item>
+        <item>Թեղուտ Շուկա</item>
+        <item>Պատվեր</item>
+        <item>Ձեր հեռախոսի համարը</item>
+        <item>Հաղորդագրություն</item>
+        <item> նիշ է մնացել</item>
+        <item>Առաքումը ցանկալի է</item>
+        <item>Հաստատել պավերը</item>
+        <item>Փակել</item>
+        <item>օր.՝ +374 XXX XXX</item>
+        <item>Ես ցանկանում եմ գնել այս ապրանքատեսակը 1&#8211;2 KG:</item>
+        <item>Դրամ</item>
+        <item>Պատվիրել</item>
+        <item>Լեզվի ընտրություն</item>
+        <item>Բարի Գալուստ «Թեղուտի Շուկա»</item>
+        <item>Պատվիրեք բարձրորակ գյուղատնտեսական արտադրանք անմիջապես գյուղացիներից եւ ստացեք այն մեկ շաբաթվա ընթացքում:\n\n«Թեղուտի Շուկա» ծրագիրը հնարավոր է դարձել կամավորական սկզբունքով գործող ակտիվ քաղաքացիների ջանքերի շնորհիվ:\n\nԱյս ծրագրի նպատակն է օգնել Թեղուտ եւ Շնող գյուղական համայնքների բնակիչներին վաճառել իրենց գյուղատնտեսական արտադրանքն` առանց միջնորդական վճարների, ինչպես նաև խթանել գյուղմթերնքների մշակության զարգացումը և ապահովել կայուն աշխատատեղեր:\n\n«Թեղուտի Շուկա»-ն ներկայացնում է Թեղուտ և Շնող գյուղերում արտադրված ապրանքները և կամավորական աշխատանքի միջոցով հաստատում անմիջական կապ մատակարարող գյուղացիների և գնորդների միջև:\n\nՁեռք բերելով այս գյուղմթերքը` Դուք կարող եք ոչ միայն վայելել բարձր որակի սնունդ, այլեւ աջակցել Թեղուտ եւ Շնող համայնքների բնակիչներին` տնտեսապես կայուն լինել իրենց համայնքներում:\n</item>
+        <item>Հետ</item>
+        <item>Առաջ</item>
+        <item>Հայերեն</item>
+        <item>Angleren</item>
+        <item>Русский</item>
+        <item>Լեզվի ընտրություն</item>
+        <item>Լեզուն փոփոխվում է նաև կարգավորումներից</item>
+        <item>Նախաձեռնությունը՝</item>
+        <item>Թեղուտի Շուկա</item>
+        <item>Շնորհակալություն: Ձեր պատվերը գրանցված է, մենք շուտով կկապվենք ձեզ հետ.</item>
+        <item>% ներբեռնվել է</item>
+        <item>Ձեր անունը</item>
+        <item>Անուն Ազգանուն</item>
+        <item>Նկարագրություն: </item>
+        <item>Վայր: </item>
+        <item>Արտադրող: </item>
+        <item>Առաքում: </item>
+        <item>Գին: </item>
+        <item>Պահեստում առկա: </item>
+        <item>Այո</item>
+        <item>Ոչ</item> 
+        <item>Խնդրում ենք ստուգել՝ Համացանցի հետ կապ չկա կամ տվյալներն անհասանելի են:</item>
+        <item>Պահեստում առկա չէ</item>
+        <item>Բոլոր դաշտերը պարտադիր են</item>
+    </string-array>
+    <string-array name="en">
+        <item>Settings</item>
+        <item>Exit</item>
+        <item>Teghut Market</item>
+        <item>Pre-Order Details</item>
+        <item>Your Phone Number</item>
+        <item>Message </item>
+        <item> characters remaining</item>
+        <item>Delivery is preffered</item>
+        <item>Submit Order</item>
+        <item>Close</item>
+        <item>eg. +374 XXX XXX</item>
+        <item>I want to buy this commodity between 1&#8211;2 KG (or get a sample test).</item>
+        <item>AMD</item>
+        <item>Pre-Order</item>
+        <item>Choose default language</item>
+        <item>Welcome to Teghut Market</item>
+		<item>Order high quality agricultural products directly from villagers and get it during one week.\n\nThis application presents you the goods of Teghut and Shnogh villages and establishes a first-hand connection between the supplying villagers and buyers helped by volunteer workers. By purchasing these products you will not only enjoy food of high quality, but also support Teghut and Shnogh to physically and economically sustain their communities.\n\nThe Teghut Market application is made possible by community efforts of volunteer social workers. The goal of this project is to enable Teghut and Shnogh villagers with an opportunity to sell their agricultural products with no mediation fees, to foster development of farmland and cultivation, provide with sustained jobs.\n</item>
+        <item>Back</item>
+        <item>Next</item>
+        <item>Հայերեն</item>
+        <item>English</item>
+        <item>Русский</item>
+        <item>Language Selection</item>
+        <item>Later change from the menu</item>
+        <item>Powered by</item>
+        <item>Teghut Market Community</item>
+        <item>Thank you! Your order is registered. We will contact you back soon.</item>
+        <item>% downloaded</item>
+        <item>Your name</item>
+        <item>Name Surname</item>
+        <item>Description: </item>
+        <item>Location: </item>
+        <item>Producer: </item>
+        <item>Delivery: </item>
+        <item>Price: </item>
+        <item>In stock: </item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>There is no Internet connection or server is not available.</item>
+        <item>Not in stock</item>
+        <item>All fields are required</item>
+    </string-array>
+    <string-array name="ru">
+        <item>настройки</item>
+        <item>Выход</item>
+        <item>Teghut Market</item>
+        <item>детали заказа</item>
+        <item>Ваш номер телефона</item>
+        <item>сообщение </item>
+        <item> символов осталось</item>
+        <item>Доставка предпочтительнее</item>
+        <item>Отправить заказ</item>
+        <item>Закрыть</item>
+        <item>пр. +374 XXX XXX</item>
+        <item>Я хочу купить этот товар между 1&#8211;2 кг (или получить образец теста).</item>
+        <item>ДРАМ</item>
+        <item>Заказать</item>
+        <item>Выберите язык по умолчанию</item>
+        <item>Добро пожаловать в Техут Маркет!</item>
+        <item>Закажите высококачественную сельскохозаяйственную продукцию непосредственно от производителей и получить его в течение недели.\n\nПроект Техут Маркет  стал возможным благодаря усилиям добровольных работников.\n\nЦелью данного проекта является предоставление жителям Техут и Шнох деревень возможность продавать свою сельскохозяйственную продукцию без посреднических сборов, содействие развитию сельскохозяйственных угодий, обеспечение устойчивых рабочих мест.\n\nТехут Маркет представляет товары Техут и Шнох сел и с помощю волонтерoв устанавливает связь между сельскими жителями и покупателям.\n\nПриобретая эти продукты вы сможете не только наслаждаться едой высокого качества, но также экономически поддерживать Техут и Шнох общины.\n</item>
+        <item>назад</item>
+        <item>след.</item>
+        <item>Հայերեն</item>
+        <item> English </item>
+        <item>Русский</item>
+        <item>Выберите язык</item>
+        <item>Язык можно изменить в меню.</item>
+        <item>создан </item>
+        <item>Сообщество Тегут Рынок</item>
+        <item>Спасибо! Мы свяжемся с вами в течение двух дней.</item>
+        <item>% загружен</item>
+        <item>Ваше имя</item>
+        <item>Имя и Фамилия</item>
+        <item>Описание: </item>
+        <item>Местоположение: </item>
+        <item>Производитель: </item>
+        <item>Доставка: </item>
+        <item>Цена: </item>
+        <item>На складе: </item>
+        <item>Да</item>
+        <item>Нет</item>
+        <item>Нет подключения к Интернету или сервер не доступен. </item>
+        <item>Нет на складе</item>
+        <item>Заполнение всех полей обязательно</item>
+    </string-array>
+
+</resources>
